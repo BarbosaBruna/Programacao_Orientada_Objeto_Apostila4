@@ -31,8 +31,9 @@ public class CalculadoraCientifica {
         Double.parseDouble(s1);
         Double.parseDouble(s2);
         return;
-    
-
+    }
+    public double potencia (int a, double b){
+        return Math.pow(a, b);
     }
 
 
