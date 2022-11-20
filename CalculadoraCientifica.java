@@ -14,13 +14,14 @@ public class CalculadoraCientifica {
     }
 
     public int raiz (int a){
-        return a;
+        return (int) Math.sqrt(a);
     }
     public double raiz (double a){
-        return a;
+        return Math.sqrt(a);
     }
     public double raiz (String a){
      return Double.parseDouble(a);
+     
     }
 
 
@@ -29,6 +30,7 @@ public static void main(String[] args) {
      CalculadoraCientifica c = new CalculadoraCientifica();
     float a1 = 2.5f , b1 = 5.5f;
     int a2 = 3, b2 = 5;
+    double a3 = 4 , b3 = 64, c3 = 169;
 
    System.out.println(c.calc(a1, b1));
 
@@ -37,6 +39,12 @@ public static void main(String[] args) {
    System.out.println(c.calc(a1, b2));
 
    System.out.println(c.calc(a2, b1));
+
+   System.out.println(c.raiz(a3));
+
+   System.out.println(c.raiz(b3));
+
+   System.out.println(c.raiz(c3));
 
 }
 
