@@ -19,7 +19,9 @@ public class CalculadoraCientifica {
     public double raiz (double a){
         return a;
     }
-
+    public double raiz (String a){
+     return Double.parseDouble(a);
+    }
 
 
 
