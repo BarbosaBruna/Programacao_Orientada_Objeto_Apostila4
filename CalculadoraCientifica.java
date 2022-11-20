@@ -13,6 +13,10 @@ public class CalculadoraCientifica {
         return (a * b/2)* 2;
     }
 
+    public int raiz (int a){
+        return a;
+    }
+
 
 public static void main(String[] args) {
      CalculadoraCientifica c = new CalculadoraCientifica();
