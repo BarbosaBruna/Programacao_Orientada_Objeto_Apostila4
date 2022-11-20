@@ -5,7 +5,7 @@ public class TesteCalculadoraCientifica {
         float a1 = 2.5f, b1 = 5.5f;
         int a2 = 3, b2 = 5;
         double a3 = 4, b3 = 64, c3 = 169;
-        String a4 = "8", b4 = "10";
+        String a4 = "80", b4 = "10";
 
         System.out.println(c.calc(a1, b1));
 
@@ -23,9 +23,9 @@ public class TesteCalculadoraCientifica {
 
         System.out.println(c.pontencia(a3, b3));
 
-        System.out.println(c.pontencia(a4, b4));
-
         System.out.println(c.potencia(a2, b3));
+        
+        System.out.println(c.pontencia(a4, b4));
 
     }
 }

@@ -33,10 +33,10 @@ public class CalculadoraCientifica {
         return Math.pow(a, b);
     }
 
-    public String pontencia(String s1, String s2) {
-        Double.parseDouble(s1);
-        Double.parseDouble(s2);
-        return Math.pow(s1, s2);
+    public double pontencia(String s1, String s2) {
+        double conv = Double.parseDouble(s1);
+        double conv2 = Double.parseDouble(s2);
+        return Math.pow(conv, conv2);
 
     }
 
