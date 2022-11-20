@@ -1,23 +1,23 @@
 public class Impressora {
 
-    public float exibir (float a){
-        return a;
+    public void exibir (float a){
+      System.out.println(a); 
     }
 
-    public float exibir (float a, float b){
-        return a + b;
+    public void exibir (float a, float b){
+       System.out.println(a + b);
     }
-    public float exibir (float a, String b){
-        return a + Integer.parseInt(b);
+    public void exibir (float a, String b){
+        System.out.println( a + Integer.parseInt(b));
     }
-    public float exibir (String a, float b){
-        return Integer.parseInt(a) + b;
+    public void exibir (String a, float b){
+        System.out.println( a + b );
     }
-    public int exibir (String a, String b, String c){
-        return Integer.parseInt(a) + Integer.parseInt(b) + Integer.parseInt(c);
+    public void exibir (String a, String b, String c){
+       System.out.println(Integer.parseInt(a) + Integer.parseInt(b) + Integer.parseInt(c)); 
     }
-    public int exibir (int a, int b, String c){
-        return a + b + Integer.parseInt(c);
+    public void exibir (int a, int b, String c){
+        System.out.println(a + b + Integer.parseInt(c));
     }
     
 }
