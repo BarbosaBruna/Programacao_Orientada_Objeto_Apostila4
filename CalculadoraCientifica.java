@@ -27,6 +27,13 @@ public class CalculadoraCientifica {
     public double pontencia (double a, double b){
         return Math.pow(a, b);
     }
+    public void pontencia (String s1, String s2){
+        Double.parseDouble(s1);
+        Double.parseDouble(s2);
+        return;
+    
+
+    }
 
 
 
