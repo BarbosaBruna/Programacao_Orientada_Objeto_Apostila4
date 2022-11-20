@@ -10,5 +10,8 @@ public class Impressora {
     public float exibir (float a, String b){
         return a + Integer.parseInt(b);
     }
+    public float exibir (String a, float b){
+        return Integer.parseInt(a) + b;
+    }
     
 }
