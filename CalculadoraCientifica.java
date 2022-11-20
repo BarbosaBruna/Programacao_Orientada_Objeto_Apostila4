@@ -16,6 +16,11 @@ public class CalculadoraCientifica {
     public int raiz (int a){
         return a;
     }
+    public double raiz (double a){
+        return a;
+    }
+
+
 
 
 public static void main(String[] args) {
