@@ -24,8 +24,9 @@ public class CalculadoraCientifica {
      
     }
 
-    public double pontencia (){
-    },
+    public double pontencia (double a, double b){
+        return Math.pow(a, b);
+    }
 
 
 
