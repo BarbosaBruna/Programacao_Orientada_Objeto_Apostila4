@@ -16,5 +16,8 @@ public class Impressora {
     public int exibir (String a, String b, String c){
         return Integer.parseInt(a) + Integer.parseInt(b) + Integer.parseInt(c);
     }
+    public int exibir (int a, int b, String c){
+        return a + b + Integer.parseInt(c);
+    }
     
 }
