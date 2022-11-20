@@ -24,6 +24,11 @@ public class CalculadoraCientifica {
      
     }
 
+    public double pontencia (){
+    },
+
+
+
 
 
 public static void main(String[] args) {
